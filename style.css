@@ -1,0 +1,90 @@
+/*style sheet landing page TOP*/
+
+body {
+    background-color: black;
+}
+
+.outer-container {
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start; 
+}
+
+.header {
+    flex: 1;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.hero {
+    flex: 4;
+    background-color: #1F2937;
+}
+
+.hero.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero > image {
+    width: 150px;
+    height: 75px;
+}
+
+.info-container {
+    flex: 4;
+    background-color: white;
+}
+
+.testimonial {
+    flex: 4;
+    background: #E5E7EB;
+    padding: 20px;
+
+}
+
+.testimonial.text {
+    font-family: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+.testimonial > p {
+    margin: 0px;
+}
+
+.call-to-action {
+    flex: 3;
+    background-color: #3882F6;
+   
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+footer {
+    background-color: #1F2937;
+    height: 50px;
+    margin-top:auto;
+    line-height: 50px;
+    color: #E5E7EB;
+    font-size: 12px;
+    text-align: center;
+}
